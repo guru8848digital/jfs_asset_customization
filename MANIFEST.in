@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include jfs_asset_customization *.css
+recursive-include jfs_asset_customization *.csv
+recursive-include jfs_asset_customization *.html
+recursive-include jfs_asset_customization *.ico
+recursive-include jfs_asset_customization *.js
+recursive-include jfs_asset_customization *.json
+recursive-include jfs_asset_customization *.md
+recursive-include jfs_asset_customization *.png
+recursive-include jfs_asset_customization *.py
+recursive-include jfs_asset_customization *.svg
+recursive-include jfs_asset_customization *.txt
+recursive-exclude jfs_asset_customization *.pyc
