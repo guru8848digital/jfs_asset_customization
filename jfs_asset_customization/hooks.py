@@ -30,6 +30,10 @@ app_license = "MIT"
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {
+	"Asset" : "public/js/asset.js",
+	"Journal Entry" : "public/js/journal_entry.js"
+}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -109,6 +113,12 @@ app_license = "MIT"
 #		"on_trash": "method"
 #	}
 # }
+
+doc_events = {
+	"Journal Entry": {
+		"on_submit": "jfs_asset_customization.jfs_asset_customization.docevents.journal_entry.on_submit",
+	}
+}
 
 # Scheduled Tasks
 # ---------------
